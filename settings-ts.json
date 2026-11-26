@@ -1,0 +1,67 @@
+{
+    "workbench.activityBar.location": "top",
+    "editor.minimap.enabled": false,
+    "editor.fontFamily": "Fira Code, monospace",
+    "editor.fontLigatures": true,
+    "window.zoomLevel": 0.5,
+    "workbench.iconTheme": "material-icon-theme",
+    "git.enableSmartCommit": true,
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "explorer.confirmDelete": false,
+    "workbench.startupEditor": "none",
+    "editor.linkedEditing": true,
+    "explorer.confirmDragAndDrop": false,
+    "workbench.secondarySideBar.defaultVisibility": "visible",
+    "workbench.editor.empty.hint": "hidden",
+    "editor.cursorBlinking": "expand",
+    "explorer.confirmPasteNative": false,
+    "chat.viewSessions.orientation": "stacked",
+    "editor.formatOnSave": true,
+    "clock.format": "HH:MM:ss",
+    "chat.agent.maxRequests": 100,
+    "explorer.autoReveal": "focusNoScroll",
+    "js/ts.updateImportsOnFileMove.enabled": "always",
+    "js/ts.suggest.completeFunctionCalls": true,
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": "explicit",
+        "source.fixAll.unusedImports": "explicit",
+        "source.addMissingImports.ts": "always"
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "replacerules.rules": {
+        "Rapikan HTML/JSX One-Liner": {
+            "find": "(^\\s*)<([a-zA-Z0-9-]+)([^>]*)>([^<\\n]+)</\\2>",
+            "replace": "$1<$2$3>\n$1  $4\n$1</$2>"
+        }
+    },
+    "workbench.experimental.modernUI": false,
+    "codesnap.shutterAction": "copy",
+    "codesnap.transparentBackground": true,
+    "codesnap.boxShadow": "rgba(0, 0, 0, 0.5) 0px 20px 68px",
+    "codesnap.containerPadding": "1em",
+    "workbench.colorTheme": "Dark Modern",
+    "workbench.colorCustomizations": {
+        "[Dark Modern]": {
+            "activityBar.background": "#0b0e14",
+            "editorGroupHeader.tabsBackground": "#1f1f1f",
+            "tab.activeBackground": "#2a2a2a",
+            "tab.inactiveBackground": "#1f1f1f",
+            "tab.unfocusedActiveBackground": "#272727"
+        }
+    },
+    "[css]": {
+        "editor.defaultFormatter": "vscode.css-language-features"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    }
+}

@@ -1,0 +1,39 @@
+[
+    {
+        "key": "ctrl+alt+m",
+        "command": "explorer.newFile"
+    },
+    {
+        "key": "ctrl+alt+n",
+        "command": "explorer.newFolder"
+    },
+    {
+        "key": "alt+shift+r",
+        "command": "workbench.files.action.showActiveFileInExplorer",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+m",
+        "command": "workbench.action.toggleEditorWidths"
+    },
+    {
+        "key": "alt+/",
+        "command": "editor.action.insertSnippet",
+        "args": {
+            "name": "TS-doc-block"
+        }
+    },
+    {
+        "key": "shift+alt+f",
+        "command": "editor.action.formatDocument",
+        "when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly && !inCompositeEditor"
+    },
+    {
+        "key": "alt+shift+s",
+        "command": "replacerules.runRule",
+        "when": "editorTextFocus && !editorReadonly",
+        "args": {
+            "ruleName": "Rapikan HTML/JSX One-Liner"
+        }
+    }
+]

@@ -1,0 +1,68 @@
+{
+    "workbench.activityBar.location": "top",
+    "editor.minimap.enabled": false,
+    "editor.fontFamily": "Fira Code, monospace",
+    "editor.fontLigatures": true,
+    "window.zoomLevel": 0.5,
+    "workbench.iconTheme": "material-icon-theme",
+    "git.enableSmartCommit": true,
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "explorer.confirmDelete": false,
+    "workbench.startupEditor": "none",
+    "github.copilot.nextEditSuggestions.enabled": true,
+    "editor.linkedEditing": true,
+    "explorer.confirmDragAndDrop": false,
+    "workbench.secondarySideBar.defaultVisibility": "visible",
+    "workbench.editor.empty.hint": "hidden",
+    "editor.cursorBlinking": "expand",
+    "explorer.confirmPasteNative": false,
+    "chat.viewSessions.orientation": "stacked",
+    "editor.formatOnSave": true,
+    "clock.format": "HH:MM:ss",
+    "chat.agent.maxRequests": 100,
+    "explorer.autoReveal": "focusNoScroll",
+    "js/ts.updateImportsOnFileMove.enabled": "always",
+    "js/ts.suggest.completeFunctionCalls": true,
+    "editor.codeActionsOnSave": {
+        "source.addMissingImports.ts": "always"
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "workbench.experimental.modernUI": false,
+    "workbench.colorTheme": "Dark Modern",
+    "workbench.colorCustomizations": {
+        "[Dark Modern]": {
+            "editor.background": "#0e1117",
+            "sideBar.background": "#0b0e14",
+            "activityBar.background": "#0b0e14",
+            "editorGroupHeader.tabsBackground": "#0b0e14",
+            "tab.activeBackground": "#161c26",
+            "tab.inactiveBackground": "#0b0e14",
+            "tab.unfocusedActiveBackground": "#11151d",
+            "tab.unfocusedInactiveBackground": "#0b0e14",
+            "tab.activeBorderTop": "#61afef",
+            "editorGroup.border": "#00000000",
+            "sideBar.border": "#00000000",
+            "editorGroupHeader.border": "#00000000",
+            "tab.border": "#00000000",
+            "statusBar.border": "#00000000"
+        }
+    },
+    "editor.tokenColorCustomizations": {
+        "[Dark Modern]": {
+            "comments": "#5c6370",
+            "keywords": "#c678dd",
+            "variables": "#abb2bf"
+        }
+    },
+    "yaml.schemaStore.enable": true,
+    "go.toolsManagement.autoUpdate": true
+}
